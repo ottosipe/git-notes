@@ -3,6 +3,7 @@
 by: otto sipe  
 github: @ottosipe     
 email: ottosipe@umich.edu  
+repo: github.com/ottosipe/git-notes
 
 ## quick `git` info:  
 
