@@ -1,6 +1,10 @@
-# Git intro with CAEN 
+# `git` intro with CAEN 
 
-## Quick Git Intro  
+by: otto sipe  
+github: @ottosipe     
+email: ottosipe@umich.edu  
+
+## quick `git` info:  
 
 * git works by incrementally adding new changes to a repository. 
 * as you make changes you run `git add .` to add the changes in the current directory or `git add filname`. 
@@ -8,13 +12,13 @@
 * when you've made a commit (or multiple commits) you can run `git push` to send them to the main repo.
 * if changes have been made on a different repo run `git pull` to pull those changes
 
-## Quick And Dirty if You Know `git`:
+## quick and dirty if you know `git`:
 in `~/.git` folder on CAEN: `git init --bare eecs280/proj1`  
 from CAEN home: `git clone ~/.git/eecs280/proj1/`  
 or from remote: `git clone uniqname@login.engin.umich.edu:~/.git/eecs280/proj1`  
 first push use: `git push origin master`
 
-## Detailed Setup On CAEN:
+## detailed setup on CAEN:
 
 1. login To CAEN  
 	`ssh uniqname@login.engin.umich.edu`
@@ -42,11 +46,11 @@ first push use: `git push origin master`
 	* it is important to note that you have to `pull` and `push` on your own even if your on CAEN. when you push to CAEN you're pushing to the hidden remote repo in `.git/` not to your regular file.
 
 
-### *Now you're setup!*
+### *now you're setup!*
 
 one of the best reasons to use `git` is for the ability to create branches of your code and revert to old versions if you make a mistake - more on this later! (or serach "git tutorial" on google)
 
-## Glossary
+## `git` glossary
 * `repo` or `repository`: where `git` stores your files, really just a folder.
 * `git clone`: the process of copying a repo, locally or to a different machine
 * `git add`: add changes to the stage of next commit
