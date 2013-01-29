@@ -42,8 +42,7 @@ first push use: `git push origin master`
 9. then type `git push origin master` to send them to the server
 	* you'll only have to type `origin master` once to let your machine know to create the `master` branch on the remote repo
 10. log back into CAEN and go to your regular project files (not the ones in `.git`) use `git pull` to pull the changes you made on your local machine.
-
-* it is important to note that you have to `pull` and `push` on your own even if your on CAEN. when you push to CAEN you're pushing to the hidden remote repo in `.git/` not to your regular file.
+	* it is important to note that you have to `pull` and `push` on your own even if your on CAEN. when you push to CAEN you're pushing to the hidden remote repo in `.git/` not to your regular file.
 
 
 ### *now you're setup!*
