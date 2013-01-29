@@ -6,10 +6,10 @@ email: ottosipe@umich.edu
 
 ## quick info:  
 
-* git works by incrementally adding new changes to a repository. 
-* as you make changes you run `git add .` to add the changes in the current directory or `git add filname`. 
-* once you've added files you can run `git commit -m "your description of changes here"` to make a commit. 
-* when you've made a commit (or multiple commits) you can run `git push` to send them to the main repo.
+* git works by incrementally adding new changes to a repository  
+* as you make changes you run `git add .` to add the changes in the current directory or `git add filname`  
+* once you've added files you can run `git commit -m "your description of changes here"` to make a commit  
+* when you've made a commit (or multiple commits) you can run `git push` to send them to the main repo  
 * if changes have been made on a different repo run `git pull` to pull those changes
 
 ## quick and dirty if you know git:
@@ -42,7 +42,7 @@ first push use: `git push origin master`
 9. then type `git push origin master` to send them to the server
 	* you'll only have to type `origin master` once to let your machine know to create the `master` branch on the remote repo
 10. log back into CAEN and go to your regular project files (not the ones in `.git`) use `git pull` to pull the changes you made on your local machine.
-	* it is important to note that you have to `pull` and `push` on your own even if your on CAEN. when you push to CAEN you're pushing to the hidden remote repo in `.git/` not to your regular file.
+	* it is important to note that you have to `pull` and `push` on your own even if your on CAEN. when you push to CAEN you're pushing to the hidden remote repo in `.git/` not to your regular file  
 
 
 ### *now you're setup!*
